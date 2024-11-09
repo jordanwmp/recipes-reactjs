@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FF8204;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: .3em;
+}
+
+.navbar .logo img{
+    max-width: 50px;
+}
+
+.navbar .logo span{
+    color: #fff;
+    font-weight: bolder;
+    font-family: Helvetica;
+    font-size: 2em;
+}
+
+.navbar form {
+    display: flex;
+    gap: 5px;
+}
+
+.navbar form input {
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    box-shadow: unset;
+}
+
+.navbar form input:active{
+    border: none;
+}
+
+.navbar form button {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #FF8204;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
