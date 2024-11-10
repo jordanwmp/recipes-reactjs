@@ -9,7 +9,9 @@ const Home = () => {
     const { data, getData } = useContext(ApiContext)
 
     useEffect(() => {
-        getData('?f=b')
+        //CAMPO INICIAL DE BUSCA DE RECEITAS
+        //INICIOU-SE COM RECEITAS COM A LEETRA B POIS HÁ MAIS RESULTADOS PARA O USUÁRIO
+        getData('search.php?f=b')
     }, [])
 
     return (

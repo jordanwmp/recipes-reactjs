@@ -12,3 +12,32 @@
     color: #666;
     font-weight: bold;
   }
+
+  @media (max-width: 576px)
+  {
+    .receitasContainer{
+      padding: 2em 0.5em;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 767px)
+  {
+    .receitasContainer{
+      padding: 2em 0.5em;
+    }
+  }
+
+  @media(min-width: 768px) and (max-width: 991px)
+  {
+
+  }
+
+  @media(min-width: 992px) and (max-width: 1199px)
+  {
+
+  }
+
+  @media(min-width: 1200px)
+  {
+    
+  }

@@ -1,4 +1,6 @@
 import { useState, useContext } from 'react'
+import { Link } from 'react-router-dom';
+
 import styles from './Navbar.module.css'
 import { BiSearchAlt2 } from "react-icons/bi";
 
@@ -13,14 +15,17 @@ const Navbar = () => {
     const handleSearch = (e) => {
         e.preventDefault()
         if (!search) return
-        getData(`?s=${search}`)
+        getData(`search.php?s=${search}`)
+        setSearch('')
     }
 
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>
                 <img src={logo} alt='Receitas Mestre Cuca' />
-                <span>MestreCuca</span>
+                <Link to='/' className={styles.link}>
+                    <span>MestreCuca</span>
+                </Link>
             </div>
             <form onSubmit={handleSearch}>
                 <input

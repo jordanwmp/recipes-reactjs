@@ -1,0 +1,96 @@
+.detalhesContainer h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.detalhesContainer .videoContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.detalhesContainer img {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.detalhesContainer h2 {
+    padding: 8px;
+    background-color: #d8d8d8;
+    margin-bottom: 0px;
+}
+
+.detalhesContainer .ingredientes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detalhesContainer .ingredientes p {
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.detalhesContainer .modoPreparo p {
+    background-color: #fff;
+    border-bottom: 0.05em solid #e2e2e2;
+    margin: 0px auto;
+    padding: 8px 12px;
+}
+
+.detalhesContainer .modoPreparo p:first-child {
+    margin-top: 15px;
+    display: block;
+}
+
+.detalhesContainer .categoria {
+    background-color: #fff;
+    padding: 8px 12px;
+}
+
+.detalhesContainer .backBtn {
+    background-color: #FF8204;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    border: unset;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .detalhesContainer {
+        width: 98%;
+        margin: auto;
+    }
+
+    .detalhesContainer .videoContainer {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .detalhesContainer {
+        width: 100%;
+        margin: auto;
+    }
+  }
+
+  @media(min-width: 768px) and (max-width: 991px) {
+    .detalhesContainer .videoContainer {
+        max-width: 668px;
+    }
+  }
+
+  @media(min-width: 992px) and (max-width: 1199px) {
+    .detalhesContainer .videoContainer {
+        max-width: 668px;
+    }
+  }
+  

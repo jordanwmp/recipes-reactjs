@@ -1,24 +1,53 @@
-.card{
+.card {
     width: 30%;
     display: flex;
     flex-direction: column;
-    /* gap: .5em; */
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
     cursor: pointer;
 }
 
-.card img{
+.card img {
     width: 100%;
 }
 
-.card p{
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease, transform 0.3s ease;
+}
+
+.link:hover {
+    font-size: 1.05em;
+}
+
+.link:hover img {
+    margin-bottom: 10px;
+    transform: scale(1.1);
+}
+
+.link p {
     text-align: center;
     font-weight: bold;
     margin: 8px 0px auto;
+    color: #FF8204;
 }
 
-.card span{
+.link span {
     font-weight: 300;
+    color: #666;
+}
+
+@media(max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .card{
+        width: 48%;
+    }
 }

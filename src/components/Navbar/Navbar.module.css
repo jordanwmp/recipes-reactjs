@@ -14,11 +14,11 @@
     gap: .3em;
 }
 
-.navbar .logo img{
+.navbar .logo img {
     max-width: 50px;
 }
 
-.navbar .logo span{
+.navbar .logo span {
     color: #fff;
     font-weight: bolder;
     font-family: Helvetica;
@@ -37,7 +37,7 @@
     box-shadow: unset;
 }
 
-.navbar form input:active{
+.navbar form input:active {
     border: none;
 }
 
@@ -52,3 +52,14 @@
     align-items: center;
     cursor: pointer;
 }
+
+.navbar .link {
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
