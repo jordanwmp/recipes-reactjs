@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "tcc-gather"
+  },
+  "targets": {
+    "tcc-gather": {
+      "hosting": {
+        "mestre-cuca": [
+          "mestre-cuca-react"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
